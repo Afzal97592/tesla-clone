@@ -1,0 +1,81 @@
+.teslaAccount_header{
+    padding: 7px 20px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    color: white;
+}
+
+.teslaAccount__links{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.teslaAccount__links > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    z-index: 0;
+}
+.teslaAccount_logo > a > img{
+    object-fit: contain;
+    width: 5rem;
+    filter: brightness(0) invert(1);
+}
+
+.teslaAccount__menu{
+    z-index: 2;
+    cursor: pointer;
+    
+}
+
+.teslaAccount_closeMenu{
+    color: #222222;
+    /* cursor: pointer; */
+}
+
+.teslaAccount_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.8rem 8.8rem;
+    padding-bottom: 2rem;
+
+}
+
+.teslaAccount_person{
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: x-large;
+
+}
+
+.teslaAccount_infoRight{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.teslaAccount_infoRight > a {
+    text-decoration: none;
+    color: #393c41;
+    font-size: smaller;
+    transition: all 0.2s;
+    text-transform: capitalize;
+}
+
+.teslaAccount_infoRight > a:hover {
+    color: black;
+    font-weight: 500;
+}
+
+.teslaAccount_car{
+    display: grid;
+    place-items: center;
+    gap: 2rem;
+    padding-bottom: 2.5rem;
+}

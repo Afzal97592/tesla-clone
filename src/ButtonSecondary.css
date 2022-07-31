@@ -1,0 +1,21 @@
+.ButtonSecondary{
+    background-color: transparent;
+    border: 3px solid #171a20;
+    width: 100%;
+    padding: 0.75rem 3.25rem;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: #171a20;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+    margin-bottom: 1.5rem;
+    /* letter-spacing: 1px; */
+}
+
+.ButtonSecondary:hover{
+    background-color: #171a20;
+    opacity: 0.9;
+    color: white;
+}

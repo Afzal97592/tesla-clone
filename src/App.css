@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Josefin+Sans&family=Jost&family=Luckiest+Guy&family=Montserrat:wght@500&family=Mulish:wght@300&display=swap');
+.app{
+  position: relative;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}

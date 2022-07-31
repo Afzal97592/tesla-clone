@@ -1,0 +1,82 @@
+.headerBlock{
+    background: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/e90a341e-f9ca-4aa1-8eab-94afea118786/bvlatuR/std/2880x1800/M3-Homepage-D") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* Display grid same as display felx and d-direction column so tow properties combined together */
+    display: grid;
+    place-items: center;
+}
+
+.headerBlock_info{
+    display: flex;
+    flex-direction: column;
+    height: 22.5rem;
+}
+
+.headerBlock_infoText{
+    text-align: center;
+    flex: 1;
+}
+
+.headerBlock_infoText > h1 {
+    color: #393c41;
+    font-weight: 500;
+    font-size: 2.3rem;
+}
+.headerBlock_infoText > h4{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #5c5e62;
+}
+
+.headerBlock_infoText > h4 >span {
+    padding-bottom: 0.25rem;
+    padding-top: 1rem;
+    border-bottom: 1px solid black;
+    columns: #393c41;
+    cursor: pointer;
+}
+
+.headerBlock_infoText > h4 >span:hover{
+    border-bottom: 2px solid;
+    color: black
+}
+
+.headerBlock_actions {
+   margin-top: 17.625rem;
+   display: flex;
+   gap: 1.25rem;
+}
+
+.headerBlock_actions > button{
+    cursor: pointer;
+    border: none;
+    width: 16.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    outline: none;
+}
+
+.headerBlock_buttonPrimary{
+    background-color: #393c41;
+    color: white;
+    opacity: 0.9;
+    letter-spacing: 0.5px;
+}
+
+.headerBlock_buttonSecondary{
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+    letter-spacing: 0.5px;
+}

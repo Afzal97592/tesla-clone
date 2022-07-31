@@ -1,0 +1,43 @@
+.car{
+    display: grid;
+    place-items: center;
+    border-top: 1px solid #d0d1d2;
+}
+
+.car_img img{
+    object-fit: contain;
+    width: 62.5rem;
+}
+
+.car_model{
+    font-weight: 500;
+    font-size: xx-large;
+    margin-top: -11.25rem;
+    text-transform: capitalize;
+}
+
+.car_actions{
+display: flex;
+align-items: center;
+gap: 1.25rem;
+margin-top: -2.5rem;
+}
+
+.car_actions > button {
+    width: 14.375rem;
+    margin-bottom: 1.875rem;
+}
+
+.car_info{
+    max-width: 21.875rem;
+    text-align: center;
+    font-size: smaller;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #393c41;
+}
+
+.car_info > span {
+    color: #3e6be2;
+    cursor: pointer;
+}
